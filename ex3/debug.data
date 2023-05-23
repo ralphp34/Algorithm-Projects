@@ -1,0 +1,83 @@
+ => Current directory=/Users/ralphpaul/Desktop/cs3212/ex3
+ => Full pathname=/Users/ralphpaul/Desktop/cs3212/ex3/vip.props
+ => Properties file contains 44 properties
+scale8=F0
+scale7=F0
+scale6=F0
+problemValueType=min
+scale5=F0
+scale4=F0
+specialTest=false
+scale3=F0
+scale2=F0
+scale1=F0
+scale0=F0
+runsPerTest=1
+displayTime=true
+alg1=FastVIP
+A8=1.0
+testPerformance=true
+alg0=NaiveVIP
+A7=1.0
+A6=1.0
+A5=1.0
+A4=1.0
+A3=1.0
+numTests=5
+A2=1.0
+A1=1.0
+A0=1.0
+maxExecTimeSeconds=3
+numAlgorithms=2
+debug=On
+display=true
+limitExecTime=false
+printToScreen=true
+printSummary=true
+VIPTester.testLarge=true
+param0_testSize4=9000
+param0_testSize3=7000
+param0_testSize2=5000
+param0_testSize1=3000
+param0_testSize0=1000
+quiescentTime=1
+testCorrectness=true
+VIPTester.vipProb=0.99
+numProblemParameters=1
+problemType=VIP
+Loading algorithm# 0 name=/Users/ralphpaul/Desktop/cs3212/ex3/NaiveVIP ... 
+ ... completed.
+Loading algorithm# 1 name=/Users/ralphpaul/Desktop/cs3212/ex3/FastVIP ... 
+ ... completed.
+ALGORITHM: NaiveVIP
+ => passed: Test 1: 2 people, queries=2  suggested target: 1
+ => passed: Test 2: 2 people, queries=2  suggested target: 2
+ => passed: Test 2: 5 people, queries=23  suggested target: 9
+ => passed: Test 4: 10 people, queries=122  suggested target: 17
+ => passed: Test 5: 10 people, queries=123  suggested target: 20
+ => passed: Test 6: test# 1, queries=13790  suggested target: 136
+ => passed: Test 6: test# 2, queries=12248  suggested target: 228
+ => passed: Test 6: test# 3, queries=13787  suggested target: 123
+ => passed: Test 6: test# 4, queries=8809  suggested target: 203
+ => passed: Test 6: test# 5, queries=13735  suggested target: 138
+ => passed: Test 6: test# 6, queries=13743  suggested target: 123
+ => passed: Test 6: test# 7, queries=10106  suggested target: 211
+ => passed: Test 6: test# 8, queries=9798  suggested target: 204
+ => passed: Test 6: test# 9, queries=13754  suggested target: 132
+ => passed: Test 6: test# 10, queries=13747  suggested target: 132
+ALGORITHM: FastVIP
+ => passed: Test 1: 2 people, queries=3  suggested target: 1
+ => passed: Test 2: 2 people, queries=3  suggested target: 2
+ => passed: Test 2: 5 people, queries=12  suggested target: 9
+ => passed: Test 4: 10 people, queries=11  suggested target: 17
+ => passed: Test 5: 10 people, queries=27  suggested target: 20
+ => passed: Test 6: test# 1, queries=101  suggested target: 136
+ => passed: Test 6: test# 2, queries=297  suggested target: 228
+ => passed: Test 6: test# 3, queries=103  suggested target: 123
+ => passed: Test 6: test# 4, queries=297  suggested target: 203
+ => passed: Test 6: test# 5, queries=100  suggested target: 138
+ => passed: Test 6: test# 6, queries=101  suggested target: 123
+ => passed: Test 6: test# 7, queries=297  suggested target: 211
+ => passed: Test 6: test# 8, queries=297  suggested target: 204
+ => passed: Test 6: test# 9, queries=105  suggested target: 132
+ => passed: Test 6: test# 10, queries=101  suggested target: 132
